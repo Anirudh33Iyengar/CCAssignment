@@ -89,11 +89,9 @@
     <div class="container">
       <label for="username"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="username" required>
-       <!-- Default User_Name: 2020MT93742 -->
-
+      
       <label for="password"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="password" required>
-      <!-- Default Password: admin123 -->
 
       <button onclick="return check(this.form)" type="submit">Login</button>
     </div>
@@ -104,8 +102,8 @@
   <script language="javascript">
     function check(form) {
 
-      if (form.username.value == "2020MT93742" && form.password.value == "admin123") {
-        alert("Login Successfully")
+      if (form.username.value == "2020MT93733" && form.password.value == "password#") {
+        alert("Login Successful")
         window.location.href = "welcome.html";
         return false;
       }
